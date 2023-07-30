@@ -175,6 +175,8 @@ eg:
 
     make install
 
+  after finishing the compile process: cp ./include/cint.h /usr/include/
+
 * Build libcint with examples and full or abridged tests (optional)::
 
     mkdir build; cd build
