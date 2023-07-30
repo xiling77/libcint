@@ -169,6 +169,10 @@ Installation
 
     mkdir build; cd build
     cmake [-DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>] ..
+
+eg:
+    cmake [-DCMAKE_INSTALL_PREFIX:PATH=/usr/lib] ..
+
     make install
 
 * Build libcint with examples and full or abridged tests (optional)::
